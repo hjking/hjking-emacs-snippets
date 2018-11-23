@@ -1,0 +1,19 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: module
+# key: module
+# group: verilog
+# --
+module $1
+ (
+  input clk,
+  input reset_n,
+  $2
+);
+
+
+\`ifdef ASSERT_ON
+
+\`endif
+
+endmodule // $1
+
